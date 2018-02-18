@@ -4,7 +4,7 @@ Please install LibMPSSE before using this library.
 In order to use this library, this C code should compile and run in your environment
 with `$ gcc example.c -lMPSSE` or simillar commands.
 
-```
+```c
 #include <libMPSSE_i2c.h>
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ int main() {
 
 ## Example
 
-```main.rs
+```rust
 extern crate mpsse_i2c;
 
 use mpsse_i2c::get_num_channels;
@@ -31,7 +31,7 @@ fn main() {
 }
 ```
 
-```Cargo.toml
+```toml
 [dependencies]
 mpsse-i2c = { git = "https://github.com/ichyo/mpsse-i2c-rust" }
 ```
